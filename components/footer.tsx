@@ -8,9 +8,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <Terminal className="h-4 w-4 text-primary" />
             <span className="font-mono text-sm text-muted-foreground">
-              build: {process.env.npm_package_version} | last commit:{' '}
-              {process.env.NEXT_PUBLIC_COMMIT_SHA ? process.env.NEXT_PUBLIC_COMMIT_SHA.substring(0, 7) : 'dev'} |
-              deployed on vercel
+              build: {process.env.npm_package_version} | last commit: a7e4ce6 | deployed on vercel
             </span>
           </div>
 

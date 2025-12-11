@@ -32,7 +32,7 @@ export function ResumeSection() {
     setTimeout(() => {
       // Download file from public folder name the file 'pujan_poudyal_resume.pdf'
       const link = document.createElement('a');
-      link.href = '/pujan_poudyal_resume.pdf';
+      link.href = '/dev-resume.pdf';
       link.download = 'pujan_poudyal_resume.pdf';
       document.body.appendChild(link);
       link.click();
